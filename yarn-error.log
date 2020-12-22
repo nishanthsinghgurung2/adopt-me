@@ -1,0 +1,65 @@
+Arguments: 
+  /usr/local/Cellar/node@10/10.19.0/bin/node /usr/local/Cellar/yarn/1.22.0/libexec/bin/yarn.js add @frontendmaster/pet
+
+PATH: 
+  /usr/local/Cellar/node@10/10.19.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/nishanthsinghgurung/personal-project/adopt-me/node_modules/.bin:/usr/local/opt/mongodb-community@3.6/bin:/usr/local/opt/mongodb-community@3.6/bin:/usr/local/opt/node@10/bin:/usr/local/opt/node@12/bin:/Users/nishanthsinghgurung/.rvm/gems/ruby-2.6.3/bin:/Users/nishanthsinghgurung/.rvm/gems/ruby-2.6.3@global/bin:/Users/nishanthsinghgurung/.rvm/rubies/ruby-2.6.3/bin:/usr/local/opt/openjdk/bin:/usr/local/opt/node@10/bin:/usr/local/opt/node@10/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/nishanthsinghgurung/Library/Android/sdk/emulator:/Users/nishanthsinghgurung/Library/Android/sdk/tools:/Users/nishanthsinghgurung/Library/Android/sdk/tools/bin:/Users/nishanthsinghgurung/Library/Android/sdk/platform-tools:~/tools/:/Users/nishanthsinghgurung/.rvm/bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  10.19.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@frontendmaster%2fpet: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:66975:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:140727:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:141699:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:141621:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "adopt-me",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "parcel src/index.html",
+      "format": "prettier \"src/**/*.{js,html}\" --write",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-eslint": "^10.1.0",
+      "eslint": "^7.16.0",
+      "eslint-config-prettier": "^7.1.0",
+      "eslint-plugin-import": "^2.22.1",
+      "eslint-plugin-jsx-a11y": "^6.4.1",
+      "eslint-plugin-react": "^7.21.5",
+      "eslint-plugin-react-hooks": "^4.2.0",
+      "parcel-bundler": "^1.12.4",
+      "prettier": "^2.2.1"
+    },
+    "dependencies": {
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
